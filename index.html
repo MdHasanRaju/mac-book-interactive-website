@@ -22,6 +22,7 @@
                 <h2 class="fw-bold">Customize your Blue 24-inch iMac Apple M1 chip</h2>
                 <p>Apple M1 chip with 8-core cpu and 16-core Neutral Engine 8GB unified Memory 256GB SSD storage Two Thunderbolt/USB 4
                 port Magic Mouse Magic keyboard-Us English</p>
+                <!-- product button -->
                 <div class="my-3">
                     <h5 class="fw-bold">Memory</h5>
                     <button id="memory-8gb" class="btn-sm hover-effect">8GB unified memory</button>
@@ -39,7 +40,7 @@
                     <button id="delivery-prime" class="btn-sm hover-effect">Friday, Aug 21 prime Delivery charge $20</button>
                 </div>
 
-                <!-- bootstrap table -->
+                <!-- products price list -->
                 <div class="w-50">
                     <table class="table">
                         <thead>
@@ -63,64 +64,28 @@
                             </tr>
                             <tr class="custom-tr-last-border">
                                 <th>Total Price</th>
-                                <th>$<span>1299</span></th>
+                                <th>$<span id="total-price">1299</span></th>
                             </tr>
                         </tbody>
                     </table>
                 </div>
+                <!-- promo code discount input -->
                 <div>
                     <p>Add Promo Code</p>
                     <div class="h-25">
                         <input type="text" name="" id="promo-input">
-                        <button class="bg-danger px-3 py-1 border-0 rounded">Apply</button>
+                        <button id="discount-btn" class="bg-danger px-3 py-1 border-0 rounded">Apply</button>
                     </div>
                 </div>  
-                <!-- <div class="table my-4" >
-                    <div class="w-50 d-flex justify-content-between">
-                        <h6 class="fw-bold">Best Price</h6>
-                        <h6 class="fw-bold">$<span>1299</span></h6>
-                    </div>
-                    <div>
-                        <hr class="w-50">
-                    </div>
-                    <div class="w-50 d-flex justify-content-between">
-                        <h6 class="fw-bold">Extra Memory Cost</h6>
-                        <h6 class="fw-bold">$<span>0</span></h6>
-                    </div>
-                    <div>
-                        <hr class="w-50">
-                    </div>
-                    <div class="w-50 d-flex justify-content-between">
-                        <h6 class="fw-bold">Extra Storage Cost</h6>
-                        <h6 class="fw-bold">$<span>0</span></h6>
-                    </div>
-                    <div>
-                        <hr class="w-50">
-                    </div>
-                    <div class="w-50 d-flex justify-content-between">
-                        <h6 class="fw-bold">Delivery charge</h6>
-                        <h6 class="fw-bold">$<span>0</span></h6>
-                    </div>
-                    <div>
-                        <hr class="w-50 d-flex justify-content-between text-dark">
-                    </div>
-                    <div class="w-50 d-flex justify-content-between">
-                        <h6 class="fw-bold">Total Price</h6>
-                        <h6 class="fw-bold">$<span>1299</span></h6>
-                    </div>
-                </div> -->
-            
             </article>
         </section>
-
+        <!-- promo code discounted price -->
         <div class="container">
             <hr>
-            <h2 class="text-center fw-bold">Total: $<span id="">1299</span></h2>
+            <h2 class="text-center fw-bold">Total: $<span id="discounted-price">1299</span></h2>
         </div>
         
     </main>  
-
-    <!-- js link -->
     <script src="js/script.js"></script>
 </body>
 </html>
